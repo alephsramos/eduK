@@ -1,0 +1,117 @@
+@media only screen and (max-width: 320px){
+    .section-5{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -0.2%;
+        background: #cdcccc;
+        height:100vh;
+    }
+    
+    .title-div-5{
+        flex: 0;
+        margin-top: 10%;
+        color: #213a5c;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-left: 0%;
+        font-size: 1rem;
+    }
+    
+    .p-div-5{
+        flex: 0;
+        margin-left: 0%;
+        margin-top: 15%;
+        text-align: justify;
+        color: #213a5c;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 0.7rem;
+    }
+    
+    .img-div-5{
+        object-fit: cover;
+        width: 80%;
+        flex: 0;
+        display: block;
+        height: auto;
+        border-radius: 20px;
+        margin-left: 0%;
+        margin: 0 auto;
+        margin-top: 15%;
+        
+    }
+    
+    .link-div-5{
+        padding: 5px 10px;
+        background: #213a5c;
+        color: #eae8e7;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        font-size: 0.7rem;
+        border-radius: 20px;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+    .section-5{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -0.2%;
+        background: #cdcccc;
+        height:100vh;
+    }
+    
+    .title-div-5{
+        flex: 0;
+        margin-top: 10%;
+        color: #213a5c;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-left: 0%;
+        font-size: 1.5rem;
+    }
+    
+    .p-div-5{
+        flex: 0;
+        margin-left: 0%;
+        margin-top: 15%;
+        text-align: justify;
+        color: #213a5c;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1rem;
+    }
+    
+    .img-div-5{
+        object-fit: cover;
+        width: 80%;
+        flex: 0;
+        display: block;
+        height: auto;
+        border-radius: 20px;
+        margin-left: 0%;
+        margin: 0 auto;
+        margin-top: 5%;
+        
+    }
+    
+    .link-div-5{
+        padding: 5px 10px;
+        background: #213a5c;
+        color: #eae8e7;
+        display: block;
+        text-align: center;
+        width: 30%;
+        text-decoration: none;
+        font-size: 1rem;
+        border-radius: 20px;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+}

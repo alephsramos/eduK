@@ -1,0 +1,471 @@
+*{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+
+
+
+.nav-bar{
+    background: #eae8e7;
+    height: 27vh;
+    margin-top: 0;
+    z-index: 10;
+    position: relative;
+    width: 100%;
+}
+
+.img-nav-bar{
+    height: 20vh;
+    display: block;
+}
+
+.links-nav-bar{
+    display: flex;
+    margin: 0;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.link-1{
+    color: #213a5c; /* Cor do texto */
+    font-size: 1.2rem;
+    padding: -5px;
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+.link-2{
+    color: #213a5c; /* Cor do texto */
+    font-size: 1.2rem;
+    padding: -5px;
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+.link-3{
+    color: #213a5c; /* Cor do texto */
+    font-size: 1.2rem;
+    padding: -5px;
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+.link-4{
+    color: #213a5c; /* Cor do texto */
+    font-size: 1.2rem;
+    padding: -5px;
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+.link-5{
+    color: #213a5c; /* Cor do texto */
+    font-size: 1.2rem;
+    padding: -5px;
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+.link-6{
+    color: #213a5c; /* Cor do texto */
+    font-size: 1.2rem;
+    padding: -5px;
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+
+
+.img-div-1{
+    height: 90vh;
+    object-fit: cover;
+    width: 100%;
+    margin-top: -28%;
+    z-index: 1;
+    opacity: 0.3;
+    position: relative;
+}
+
+.title-div-1{
+    text-align: center;
+    position: relative;
+    font-size: 3rem;
+    margin-top: 10%;
+    z-index: 3;
+    color: #eae8e7;
+}
+
+.p-div-1{
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    margin-top: 2.5%;
+    color: #eae8e7;
+    z-index: 2;
+}
+
+.link-div-1{
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-top: 5%;
+    width: 15rem;
+    font-size: 2.5rem;
+    padding: 20px 25px;
+    background: #213a5c;
+    color: #eae8e7;
+    border-radius: 20px;
+    z-index: 2;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.link-div-1:hover{
+    transform: scale(1.1);
+    background: #5778a6;
+}
+
+/*section 2*/
+
+.section-2{
+    display: flex;
+    margin-top: -0.2%;
+    background: white;
+    height: 60vh;
+}
+
+.title-div-2{
+    flex: 1;
+    margin-top: 10%;
+    color: #213a5c;
+    margin-left: 10%;
+    font-size: 4rem;
+}
+
+.p-div-2{
+    flex: 1;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: left;
+    color: #213a5c;
+    font-size: 1.5rem;
+}
+
+.img-div-2{
+    object-fit: cover;
+    width: 65%;
+    flex: 1;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 5%;
+    
+}
+
+/*section 3*/
+
+.section-3{
+    background: #eae8e7;
+    height: 100vh;
+}
+
+.section-3-title{
+    font-size: 5rem;
+    text-align: center;
+    color: #213a5c;
+    padding: 40px;
+}
+
+.cards{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 70vh;
+}
+
+.card-1{
+    border-radius: 10px 10px 0 0;
+    width: 30%;
+    margin-top: 2.5%;
+    height: auto;
+    background-image: url("/img/fotos/foto-2.jpg");
+    background-size: cover;
+}
+
+.card-2{
+    margin-left: 1%;
+    width: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px 10px 0 0;
+    margin-right: 1%;
+    background-image: url("/img/fotos/foto-2.jpg");
+    background-size: cover;
+}
+
+.card-3{
+    margin-left: 1%;
+    border-radius: 10px 10px 0 0;
+    margin-right: 1%;
+    width: 30%;
+    margin-top: 2.5%;
+    background-image: url("/img/fotos/foto-2.jpg");
+    background-size: cover;
+}
+
+.title-card-1,
+.title-card-2,
+.title-card-3{
+    font-size: 3rem;
+    margin-top: 77%;
+    border: 10px;
+    color: #eae8e7;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 10px;
+}
+
+.p-card-1,
+.p-card-2,
+.p-card-3{
+    font-size: 1.5rem;
+    color: #eae8e7;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    text-align: justify;
+
+}
+.img-card-1,
+.img-card-2,
+.img-card-3{
+    width: 15%;
+    height: auto;
+    display: none;
+
+}
+
+/*section 4*/
+
+.section-4{
+    background-image: url(/img/fotos/foto-1.jpg);
+    height: 60vh;   
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.section-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    
+}
+
+.link-section-4{
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background: #213a5c;
+    color: #eae8e7;
+    padding: 25px 30px;
+    opacity: 0.8;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.link-section-4:hover{
+    opacity: 1;
+}
+
+
+.section-5{
+    display: flex;
+    margin-top: -0.2%;
+    background: #cdcccc;
+    height: 80vh;
+}
+
+.title-div-5{
+    flex: 1;
+    margin-top: 10%;
+    color: #213a5c;
+    margin-left: 10%;
+    font-size: 4rem;
+}
+
+.p-div-5{
+    flex: 1;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: left;
+    color: #213a5c;
+    font-size: 1.5rem;
+}
+
+.img-div-5{
+    object-fit: cover;
+    width: 65%;
+    flex: 1;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 15%;
+    
+}
+
+.link-div-5{
+    padding: 15px 20px;
+    background: #213a5c;
+    color: #eae8e7;
+    display: block;
+    text-align: center;
+    width: 15%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+
+.section-6{
+    height: 60vh;
+    background: #eae8e7;;
+}
+
+.div-formulario {
+    display: flex;
+    background: #eae8e7;
+    justify-content: space-between;
+  }
+  
+  .form-info {
+    width: 40%;
+  }
+
+  .title-form{
+    color: #213a5c;
+    font-size: 4rem;
+    margin-left: 15%;
+    margin-top: 20%;
+  }
+
+  .p-form{
+    color: #213a5c;
+    font-size: 1.8rem;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+  .nome-form{
+    color:#213a5c;
+    font-size: 1.5rem;
+    margin-top: 2.5%;
+  }
+
+  .email-form{
+    color: #213a5c;
+    font-size: 1.5rem;
+    margin-top: 2.5%;
+  }
+
+  .msg-form{
+    color: #213a5c;
+    font-size: 1.5rem;
+    margin-top: 2.5%;
+  }
+  
+  .form-perguntas {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 70%;
+    padding: 10px;
+    background-color: #c3c0bf;
+    border: transparent;
+    opacity: 0.5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: #213a5c;
+    color: white;
+    border: none;
+    width: 72.5%;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0f223e;
+    opacity: 1;
+  }
+
+
+  footer{
+    background: black;
+  }
+
+  .img-fim{
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-top: 2.5%;
+  }
+
+  .p-footer{
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    color: white;
+  }
+
+
+  /* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 15px; /* Largura da barra de rolagem */
+}
+
+/* Estilo do "thumb" (o indicador que você move) */
+::-webkit-scrollbar-thumb {
+    background-color: #213a5c; /* Cor do indicador */
+    border-radius: 5px; /* Cantos arredondados do indicador */
+}
+
+/* Estilo do "track" (a área de fundo da barra de rolagem) */
+::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Cor de fundo da barra de rolagem */
+}

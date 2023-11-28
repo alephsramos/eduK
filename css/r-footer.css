@@ -1,0 +1,44 @@
+@media only screen and (max-width: 320px){
+    footer{
+        background: black;
+      }
+    
+      .img-fim{
+        width: 30%;
+        height: auto;
+        display: block;
+        margin-top: 5%;
+      }
+    
+      .p-footer{
+        text-align: center;
+        font-size: 0.6rem;
+        opacity: 0.7;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: white;
+      }
+    
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+    footer{
+        background: black;
+      }
+    
+      .img-fim{
+        width: 30%;
+        height: auto;
+        display: block;
+        margin-top: 5%;
+      }
+    
+      .p-footer{
+        text-align: center;
+        font-size: 0.6rem;
+        opacity: 0.7;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: white;
+      }
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 320px){
+
+    
+    .link-section-4{
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+        background: #213a5c;
+        color: #eae8e7;
+        padding: 15px 20px;
+        opacity: 0.8;
+        border-radius: 10px;
+        transition: transform 0.2s ease-in-out;
+    }
+    
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+    .link-section-4{
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+        background: #213a5c;
+        color: #eae8e7;
+        padding: 15px 20px;
+        opacity: 0.8;
+        border-radius: 10px;
+        transition: transform 0.2s ease-in-out;
+    }
+}

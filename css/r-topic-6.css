@@ -1,0 +1,182 @@
+@media only screen and (max-width: 320px){
+
+.section-6{
+    height: 80vh;
+    background: #eae8e7;;
+}
+
+.div-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    background: #eae8e7;
+    justify-content: center;
+  }
+  
+  .form-info {
+    width: 100%;
+  }
+
+  .title-form{
+    color: #213a5c;
+    font-size: 1.5rem;
+    margin-left: 0%;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .p-form{
+    color: #213a5c;
+    font-size: 0.7rem;
+    margin-left: 0%;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .nome-form{
+    color:#213a5c;
+    font-size: 0.7rem;
+    margin-top: 2.5%;
+  }
+
+  .email-form{
+    color: #213a5c;
+    font-size: 0.7rem;
+    margin-top: 2.5%;
+  }
+
+  .msg-form{
+    color: #213a5c;
+    font-size: 0.7rem;
+    margin-top: 2.5%;
+  }
+  
+  .form-perguntas {
+    width: 85%;
+    margin-left: 5%;
+    display: block;
+    margin-top: 2.5%;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #c3c0bf;
+    border: transparent;
+    opacity: 0.5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: #213a5c;
+    color: white;
+    border: none;
+    display: block;
+    width: 108%;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0f223e;
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+    .section-6{
+        height: 70vh;
+        background: #eae8e7;;
+    }
+    
+    .div-formulario {
+        display: flex;
+        flex-wrap: wrap;
+        background: #eae8e7;
+        justify-content: center;
+      }
+      
+      .form-info {
+        width: 100%;
+      }
+    
+      .title-form{
+        color: #213a5c;
+        font-size: 1.8rem;
+        margin-left: 0%;
+        text-align: center;
+        margin-top: 10%;
+      }
+    
+      .p-form{
+        color: #213a5c;
+        font-size: 0.9rem;
+        margin-left: 0%;
+        text-align: center;
+        width: 100%;
+        margin-top: 5%;
+      }
+    
+      .nome-form{
+        color:#213a5c;
+        font-size: 0.9rem;
+        margin-top: 2.5%;
+      }
+    
+      .email-form{
+        color: #213a5c;
+        font-size: 0.9rem;
+        margin-top: 2.5%;
+      }
+    
+      .msg-form{
+        color: #213a5c;
+        font-size: 0.9rem;
+        margin-top: 2.5%;
+      }
+      
+      .form-perguntas {
+        width: 85%;
+        margin-left: 5%;
+        display: block;
+        margin-top: 2.5%;
+      }
+      
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        background-color: #c3c0bf;
+        border: transparent;
+        opacity: 0.5;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+    
+      input[type="submit"] {
+        background-color: #213a5c;
+        color: white;
+        border: none;
+        display: block;
+        width: 106%;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #0f223e;
+        opacity: 1;
+      }
+}
