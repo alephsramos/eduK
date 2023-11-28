@@ -1,7 +1,7 @@
 @media only screen and (max-width: 400px){
 
     .section-1{
-        height: 25vh;
+        height: 30vh;
         overflow-y: hidden;
     }
     .img-div-1{
@@ -59,11 +59,11 @@
 
 @media only screen and (min-width: 401px) and (max-width: 480px){
     .section-1{
-        height: 25vh;
+        height: 40vh;
         overflow-y: hidden;
     }
     .img-div-1{
-        height: 45vh;
+        height: 65vh;
         width: 100%;
         margin-top: -70%;
         object-fit: cover;
