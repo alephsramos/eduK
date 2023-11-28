@@ -103,7 +103,7 @@
 }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 700px){
+@media only screen and (min-width: 481px) and (max-width: 800px){
     .img-div-1{
         height: 70vh;
         object-fit: cover;
@@ -156,7 +156,7 @@
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1260px){
+@media only screen and (min-width: 801px) and (max-width: 1260px){
     .img-div-1{
         height: 80vh;
         object-fit: cover;
