@@ -1,7 +1,7 @@
 @media only screen and (max-width: 320px){
 .section-2{
     display: block;
-    margin-top: -0.2%;
+    margin-top: 1%;
     background: white;
     height: 70vh;
 }
@@ -42,7 +42,7 @@
 
     .section-2{
         display: block;
-        margin-top: 0.5%;
+        margin-top: 1%;
         background: white;
         height: 70vh;
     }
@@ -128,7 +128,7 @@
         display: block;
         margin-top: 1%;
         background: white;
-        height: 110vh;
+        height: 130vh;
     }
     
     .title-div-2{
@@ -153,11 +153,11 @@
     
     .img-div-2{
         object-fit: cover;
-        width: 40%;
+        width: 50%;
         flex: 1;
         height: auto;
         margin: 0 auto;
-        border-radius: 20px;
+        border-radius: 10px;
         display: block;
         margin-top: 5%;
         
@@ -196,7 +196,7 @@
         height: auto;
         border-radius: 20px;
         margin-left: 25%;
-        margin-top: 25%;
+        margin-top: 15%;
         
     }
 }
