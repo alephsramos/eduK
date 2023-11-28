@@ -16,7 +16,9 @@
       }
 
       .img-icon-bar{
-        width: 16px;
+        padding: auto;
+    border:1px solid red;
+        width: 15%; 
     }
       
       .links-nav-bar {
@@ -55,8 +57,10 @@
         font-size: 0.6rem;
         border: none;
         cursor: pointer;
-        padding: -5px;
-        margin-top: 2.5%;
+        padding: 0px;
+        margin-left: -30%;
+        display: flex;
+        margin-top: 0%;
         text-decoration: none;
         border-radius: 10px;
         font-weight: bold;
@@ -204,6 +208,7 @@
         width: 5vh;           
         display: block; 
         margin-top: 3.5vh;
+        text-align: center;
         
     }
       
@@ -244,6 +249,8 @@
         border: none;
         cursor: pointer;
         padding: -5px;
+        text-align: center;
+        display: block;
         margin-top: 2.5%;
         text-decoration: none;
         border-radius: 10px;
