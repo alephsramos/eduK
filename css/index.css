@@ -12,76 +12,85 @@ body{
 
 
 
-.nav-bar{
+.nav-bar {
     background: #eae8e7;
-    height: 27vh;
+    height: 28vh;
     margin-top: 0;
     z-index: 10;
     position: relative;
     width: 100%;
-}
+  }
+  
+  .img-nav-bar {
+    height: 12vh;
 
-.img-nav-bar{
-    height: 20vh;
     display: block;
-}
+  }
 
-.links-nav-bar{
-    display: flex;
-    margin: 0;
+  
+  .links-nav-bar {
+    display: block;
     width: 50%;
     align-items: center;
     justify-content: center;
     margin-left: 25%;
-}
-
-.link-1{
+    letter-spacing: 1.2px;
+  }
+  
+  .link-1, .link-2, .link-3, .link-4, .link-5, .link-6 {
     color: #213a5c; /* Cor do texto */
-    font-size: 1.2rem;
+    font-size: 0.6rem;
+    width: 100%;
+    display: block;
+    text-align: center;
     padding: -5px;
+    margin-top: 2.5%;
     text-decoration: none; /* Remover sublinhado */
     font-weight: bold; /* Negrito */
-}
-
-.link-2{
-    color: #213a5c; /* Cor do texto */
-    font-size: 1.2rem;
+  }
+  
+  /* Estilos do menu dropdown para telas menores */
+  .dropdown-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    background-color: #eae8e7;
+    color: #213a5c;
+    font-size: 0.6rem;
+    border: none;
+    cursor: pointer;
     padding: -5px;
-    text-decoration: none; /* Remover sublinhado */
-    font-weight: bold; /* Negrito */
-}
-
-.link-3{
-    color: #213a5c; /* Cor do texto */
-    font-size: 1.2rem;
-    padding: -5px;
-    text-decoration: none; /* Remover sublinhado */
-    font-weight: bold; /* Negrito */
-}
-
-.link-4{
-    color: #213a5c; /* Cor do texto */
-    font-size: 1.2rem;
-    padding: -5px;
-    text-decoration: none; /* Remover sublinhado */
-    font-weight: bold; /* Negrito */
-}
-
-.link-5{
-    color: #213a5c; /* Cor do texto */
-    font-size: 1.2rem;
-    padding: -5px;
-    text-decoration: none; /* Remover sublinhado */
-    font-weight: bold; /* Negrito */
-}
-
-.link-6{
-    color: #213a5c; /* Cor do texto */
-    font-size: 1.2rem;
-    padding: -5px;
-    text-decoration: none; /* Remover sublinhado */
-    font-weight: bold; /* Negrito */
-}
+    margin-top: 2.5%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #213a5c;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .show {
+    display: block;
+  }
 
 
 
