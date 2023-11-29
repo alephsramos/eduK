@@ -22,6 +22,7 @@
         text-align: center;
         position: relative;
         font-size: 1.5rem;
+        width: 70%;
         margin-top: 2.5%;
         color: #eae8e7;
         z-index: 2;
@@ -71,6 +72,7 @@
         font-size: 1rem;
         margin-top: 2.5%;
         color: #eae8e7;
+        width: 70%;
         z-index: 2;
     }
     
@@ -117,6 +119,7 @@
         position: relative;
         font-size: 0.8rem;
         margin-top: 2.5%;
+        width: 70%;
         color: #eae8e7;
         z-index: 2;
     }

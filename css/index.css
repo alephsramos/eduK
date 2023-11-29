@@ -130,7 +130,7 @@ body{
 
 .img-div-2{
     object-fit: cover;
-    width: 65%;
+    width: 95%;
     flex: 1;
     height: auto;
     border-radius: 20px;
@@ -165,7 +165,7 @@ body{
     width: 30%;
     margin-top: 2.5%;
     height: auto;
-    background-image: url("../img/fotos/foto-1.jpg");
+    background-image: url("../img/fotos/foto-5.jpeg");
     background-size: cover;
 }
 
@@ -174,7 +174,7 @@ body{
   width: 30%;
   margin-top: 2.5%;
   height: auto;
-  background-image: url("../img/fotos/foto-1.jpg");
+  background-image: url("../img/fotos/foto-5.jpeg");
   background-size: cover;
 }
 
@@ -183,7 +183,7 @@ body{
   width: 30%;
   margin-top: 2.5%;
   height: auto;
-  background-image: url("../img/fotos/foto-1.jpg");
+  background-image: url("../img/fotos/foto-5.jpeg");
   background-size: cover;
 }
 
@@ -222,7 +222,7 @@ body{
 /*section 4*/
 
 .section-4{
-    background-image: url("../img/fotos/foto-1.jpg");
+    background-image: url("../img/fotos/foto-3.jpg");
     height: 80vh;   
     width: 100%;
     background-size: cover;

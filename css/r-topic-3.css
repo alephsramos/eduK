@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1600px) and (max-width: 2000px){
     .section-3{
         background: #eae8e7;
-        height: 85vh;
+        height: 105vh;
     }
     
     .section-3-title{
@@ -9,75 +9,6 @@
         text-align: center;
         color: #213a5c;
         padding: 60px;
-    }
-    
-    .cards{
-        display: flex;
-        margin-left: 5%;
-        margin-right: 5%;
-        height: 60vh;
-    }
-    
-    .card-1{
-        border-radius: 10px 10px 0 0;
-        width: 30%;
-        margin-top: 2.5%;
-        height: auto;
-        background-size: cover;
-    }
-    
-    .card-2{
-      border-radius: 10px 10px 0 0;
-      width: 30%;
-      margin-top: 2.5%;
-      height: auto;
-      background-size: cover;
-    }
-    
-    .card-3{
-      border-radius: 10px 10px 0 0;
-      width: 30%;
-      margin-top: 2.5%;
-      height: auto;
-      background-size: cover;
-    }
-    
-    .title-card-1,
-    .title-card-2,
-    .title-card-3{
-        font-size: 2rem;
-        margin-top: 85%;
-        height: auto;
-        border: 10px;
-        color: #eae8e7;
-        background: rgba(0, 0, 0, 0.9);
-        text-align: center;
-        padding: 20px;
-    }
-    
-    .p-card-1,
-    .p-card-2,
-    .p-card-3{
-        font-size: 1.2rem;
-        color: #eae8e7;
-        background: rgba(0, 0, 0, 0.9);
-        padding: 20px;
-        text-align: justify;
-    
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1450px){
-    .section-3{
-        background: #eae8e7;
-        height: 105vh;
-    }
-    
-    .section-3-title{
-        font-size: 2rem;
-        text-align: center;
-        color: #213a5c;
-        padding: 40px;
     }
     
     .cards{
@@ -111,11 +42,29 @@
       background-size: cover;
     }
     
-    .title-card-1,
-    .title-card-2,
+    .title-card-1{
+        font-size: 2rem;
+        margin-top: 62.5%;
+        height: auto;
+        border: 10px;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 20px;
+    }
+    .title-card-2{
+        font-size: 2rem;
+        margin-top: 62.5%;
+        height: auto;
+        border: 10px;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 20px;
+    }
     .title-card-3{
-        font-size: 1rem;
-        margin-top: 65%;
+        font-size: 2rem;
+        margin-top: 58%;
         height: auto;
         border: 10px;
         color: #eae8e7;
@@ -124,8 +73,119 @@
         padding: 20px;
     }
     
-    .p-card-1,
-    .p-card-2,
+    .p-card-1{
+        font-size: 1.2rem;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: justify;
+    }
+    .p-card-2{
+        font-size: 1.2rem;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: justify;
+    }
+    .p-card-3{
+        font-size: 1.2rem;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: justify;
+    
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1450px){
+    .section-3{
+        background: #eae8e7;
+        height: 125vh;
+    }
+    
+    .section-3-title{
+        font-size: 2rem;
+        text-align: center;
+        color: #213a5c;
+        padding: 40px;
+    }
+    
+    .cards{
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 80vh;
+    }
+    
+    .card-1{
+        border-radius: 10px 10px 0 0;
+        width: 30%;
+        margin-top: 2.5%;
+        height: auto;
+        background-size: cover;
+    }
+    
+    .card-2{
+      border-radius: 10px 10px 0 0;
+      width: 30%;
+      margin-top: 2.5%;
+      height: auto;
+      background-size: cover;
+    }
+    
+    .card-3{
+      border-radius: 10px 10px 0 0;
+      width: 30%;
+      margin-top: 2.5%;
+      height: auto;
+      background-size: cover;
+    }
+    
+    .title-card-1{
+        font-size: 1rem;
+        margin-top: 71%;
+        height: auto;
+        border: 10px;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 20px;
+    }
+    .title-card-2{
+        font-size: 1rem;
+        margin-top: 71%;
+        height: auto;
+        border: 10px;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 20px;
+    }
+    .title-card-3{
+        font-size: 1rem;
+        margin-top: 66.5%;
+        height: auto;
+        border: 10px;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .p-card-1{
+        font-size: 0.8rem;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: justify;
+    }
+    .p-card-2{
+        font-size: 0.8rem;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: justify;
+    }
     .p-card-3{
         font-size: 0.8rem;
         color: #eae8e7;
@@ -180,11 +240,29 @@
       background-size: cover;
     }
     
-    .title-card-1,
-    .title-card-2,
+    .title-card-1{
+        font-size: 1rem;
+        margin-top: 53%;
+        height: auto;
+        border: 10px;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 20px;
+    }
+    .title-card-2{
+        font-size: 1rem;
+        margin-top: 53%;
+        height: auto;
+        border: 10px;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 20px;
+    }
     .title-card-3{
         font-size: 1rem;
-        margin-top: 66%;
+        margin-top: 47.5%;
         height: auto;
         border: 10px;
         color: #eae8e7;
@@ -193,8 +271,20 @@
         padding: 20px;
     }
     
-    .p-card-1,
-    .p-card-2,
+    .p-card-1{
+        font-size: 0.8rem;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: justify;
+    }
+    .p-card-2{
+        font-size: 0.8rem;
+        color: #eae8e7;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: justify;
+    }
     .p-card-3{
         font-size: 0.8rem;
         color: #eae8e7;
