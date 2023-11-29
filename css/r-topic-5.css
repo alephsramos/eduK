@@ -50,3 +50,56 @@
         margin-top: 3%;
     }
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1450px){
+    .section-5{
+        display: flex;
+        margin-top: -0.2%;
+        background: #cdcccc;
+        height: 100vh;
+    }
+    
+    .title-div-5{
+        flex: 1;
+        margin-top: 15%;
+        color: #213a5c;
+        margin-left: 10%;
+        font-size: 2rem;
+    }
+    
+    .p-div-5{
+        flex: 1;
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 100%;
+        text-align: left;
+        color: #213a5c;
+        font-size: 1rem;
+    }
+    
+    .img-div-5{
+        object-fit: cover;
+        width: 70%;
+        flex: 1;
+        height: auto;
+        border-radius: 20px;
+        margin-left: 25%;
+        margin-top: 12%;
+        
+    }
+    
+    .link-div-5{
+        padding: 10px 12px;
+        background: #213a5c;
+        color: #eae8e7;
+        display: block;
+        text-align: center;
+        width: 35%;
+        text-decoration: none;
+        font-size: 1rem;
+        border-radius: 10px;
+        z-index: 1;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+}
