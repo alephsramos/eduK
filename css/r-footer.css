@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1400px) and (max-width: 2000px){
+    footer{
+        background: black;
+      }
+    
+      .img-fim{
+        width: 10%;
+        height: auto;
+        display: block;
+        margin-top: 5%;
+      }
+    
+      .p-footer{
+        text-align: center;
+        font-size: 1.5rem;
+        opacity: 0.7;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: white;
+      }
+    
+}
