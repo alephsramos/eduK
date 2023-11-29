@@ -411,6 +411,14 @@ body{
     margin-top: 2.5%;
   }
 
+  .imgs-fim{
+    display: flex;
+  }
+
+  .links-img-fim{
+    width: 20%;
+  }
+
   .p-footer{
     text-align: center;
     font-size: 1.5rem;
