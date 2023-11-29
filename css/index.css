@@ -267,7 +267,7 @@ body{
 .section-5{
     display: flex;
     margin-top: -0.2%;
-    background: #cdcccc;
+    background: #e9e8e6;
     height: 80vh;
 }
 
@@ -291,9 +291,10 @@ body{
 .img-div-5{
     object-fit: cover;
     width: 65%;
+    mix-blend-mode: color-burn;
     flex: 1;
     height: auto;
-    border-radius: 20px;
+    border-radius: 0px;
     margin-left: 25%;
     margin-top: 15%;
     

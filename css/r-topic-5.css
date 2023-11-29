@@ -8,7 +8,7 @@
     
     .title-div-5{
         flex: 1;
-        margin-top: 10%;
+        margin-top: 5%;
         color: #213a5c;
         margin-left: 10%;
         font-size: 3.5rem;
@@ -18,19 +18,19 @@
         flex: 1;
         margin-left: 10%;
         margin-top: 5%;
-        width: 70%;
+        width: 40%;
         text-align: left;
         color: #213a5c;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
     
     .img-div-5{
         object-fit: cover;
-        width: 85%;
+        width: 165%;
         flex: 1;
         height: auto;
         border-radius: 20px;
-        margin-left: 5%;
+        margin-left: -85%;
         margin-top: 25%;
         
     }
@@ -56,12 +56,12 @@
         display: flex;
         margin-top: -0.2%;
         background: #cdcccc;
-        height: 100vh;
+        height: 80vh;
     }
     
     .title-div-5{
         flex: 1;
-        margin-top: 15%;
+        margin-top: 12%;
         color: #213a5c;
         margin-left: 10%;
         font-size: 2rem;
@@ -71,20 +71,20 @@
         flex: 1;
         margin-left: 10%;
         margin-top: 5%;
-        width: 100%;
+        width: 60%;
         text-align: left;
         color: #213a5c;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
     .img-div-5{
         object-fit: cover;
-        width: 70%;
+        width: 120%;
         flex: 1;
         height: auto;
         border-radius: 20px;
-        margin-left: 25%;
-        margin-top: 12%;
+        margin-left: -30%;
+        margin-top: 15%;
         
     }
     
@@ -124,7 +124,7 @@
         flex: 1;
         margin-left: 10%;
         margin-top: 5%;
-        width: 100%;
+        width: 60%;
         text-align: left;
         color: #213a5c;
         font-size: 0.8rem;
@@ -132,12 +132,12 @@
     
     .img-div-5{
         object-fit: cover;
-        width: 65%;
+        width: 125%;
         flex: 1;
         height: auto;
         border-radius: 20px;
-        margin-left: 25%;
-        margin-top: 12%;
+        margin-left: -40%;
+        margin-top: 25%;
         
     }
     
